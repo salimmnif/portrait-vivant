@@ -1,0 +1,11 @@
+# Versions testées avec Python 3.14.7 sous Windows 11.
+mediapipe==1.2.2
+
+# MediaPipe impose opencv-contrib-python, qui fournit déjà le module cv2.
+# Ne PAS installer opencv-python en plus : les deux paquets entreraient en conflit.
+opencv-contrib-python==5.0.0.93
+
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+pytest==9.2.0
